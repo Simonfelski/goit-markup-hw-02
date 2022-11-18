@@ -1,19 +1,144 @@
 nav a {
   color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0, 02em;
 }
 
 nav a.active {
   color: #2196f3;
 }
 
-button {
-  color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
 }
 
-input.active {
+input[type='button'] {
+  margin: 5px;
+  width: 121px;
+  height: 38px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+input[type='button'] .active,
+input[type='button']:hover {
   color: white;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+span {
+  color: #2196f3;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h3 {
+  color: #212121;
+}
+
+p {
+  color: #757575;
+}
+
+a.contact {
+  color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0, 02em;
+}
+
+a.contact:hover {
+  color: #757575;
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+a.contact-footer {
+  color: 255, 255, 255, 0.6;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+a.contact-footer:hover {
+  color: 255, 255, 255, 0.6;
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+div {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+div:hover {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+.logo-header {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.logo-header:hover {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.logo-footer:hover {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.cursor {
+  cursor: pointer;
 }
