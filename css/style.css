@@ -6,7 +6,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .heads a {
@@ -15,7 +15,7 @@ body {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
@@ -29,7 +29,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 0.02em;
 }
 
@@ -44,6 +44,7 @@ body {
 .heads a:hover,
 .heads a:focus {
   color: #2196f3;
+  text-decoration: underline;
 }
 
 .heads > div a {
@@ -53,7 +54,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1rem;
   letter-spacing: 0.02em;
 }
 
@@ -64,7 +65,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -73,7 +74,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: #212121;
@@ -85,7 +86,7 @@ body {
   left: 700px;
   top: 430px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: #00000f;
   border-radius: 4px;
 }
 
@@ -93,7 +94,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -103,7 +104,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -117,7 +118,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #212121;
@@ -127,7 +128,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -138,7 +139,7 @@ body {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -146,14 +147,19 @@ body {
 .footer-info span {
   color: #ffffff;
 }
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
 .address-info a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
   text-decoration: none;
 }
 .footer-info {
@@ -166,7 +172,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -184,7 +190,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
@@ -197,7 +203,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -217,7 +223,7 @@ input[type='button']:hover {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
