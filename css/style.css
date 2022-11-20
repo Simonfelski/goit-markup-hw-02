@@ -89,6 +89,8 @@ body {
   box-shadow: #00000f;
   border-radius: 4px;
   color: #ffffff;
+  border: none;
+  outline: none;
 }
 
 .article-info > ul > li > h2 {
